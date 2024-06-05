@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "techtorialeks"
-    key    = "terraform.tfstate"
+    bucket = "paulc-terraform6"
+    key    = "terraformeks.tfstate"
     region = "us-east-2"
   }
 }
